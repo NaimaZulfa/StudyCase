@@ -1,4 +1,8 @@
-﻿# OrderFood
+NAMA : Naima Zulfa
+NIM  : 19.11.2735
+Kelas: 19 Informatika 03
+
+# OrderFood
 Aplikasi ini berfungsi untuk memesan suatu item/barang dan menjumlahkan total harga barang yang dipesan oleh si pembeli.
 
 ### Fungsi
