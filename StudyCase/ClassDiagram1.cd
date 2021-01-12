@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StudyCase.Controller.MainWindowController">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAQCAACAAAAAAAAEAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Controller\MainWindowController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudyCase.Controller.PenawaranController">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Controller\PenawaranController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudyCase.Controller.VoucherController">
+    <Position X="2.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Controller\VoucherController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudyCase.Model.Item">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Model\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudyCase.Model.KeranjangBelanja">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgDAAAAAAAAAEAAEAAKAAAKABAAAAAAAAAIAgEAAAAA=</HashCode>
+      <FileName>Model\KeranjangBelanja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudyCase.Model.Payment">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQIAAAAAAEAAAAAAABAAAA=</HashCode>
+      <FileName>Model\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudyCase.Model.Voucher">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAACAAAAEA=</HashCode>
+      <FileName>Model\Voucher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudyCase.App">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudyCase.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAIAAACAUAAAIAAQCAABQAASAAAAAAAAIABAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StudyCase.Penawaran" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAEEAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Penawaran.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StudyCase.PilihVoucher" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Interface Name="StudyCase.PilihVoucher.OnPilihVoucherChangedListener" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PilihVoucher.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Interface>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAQAAgAAAAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>PilihVoucher.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="StudyCase.Model.OnKeranjangBelanjaChangerListener">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAQAAAAAAACAAAAAAAAIAAAA=</HashCode>
+      <FileName>Model\KeranjangBelanja.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StudyCase.Model.OnPaymentChangedListener">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Payment.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StudyCase.OnPenawaranChangedListener">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Penawaran.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
