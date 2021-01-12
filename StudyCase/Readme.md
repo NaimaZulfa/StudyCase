@@ -66,7 +66,7 @@ private void generateContentPenawaran()
 Jadi item-item yang dipilih dimasukkan ke dalam listBox. Setiap item yang ditambahkan akan membuat total harga semakin besar, begitu juga jika item dikurang/dihapus maka total harga juga akan berkurang. Kemudian setiap Voucher yang dipilih akan dihitung potongannya secara otomatis dengan perhitungan algoritma. Dan akan didapatlah Total keseluruhan harga yang harus dibayar.
 
 Jika button Voucher di klik maka akan memunculkan halaman Daftar Voucher yang bisa kita pilih.
-```
+```csharp
  private void OnPilihVoucherClicked(object sender, RoutedEventArgs e)
         {
             PilihVoucher pilihVoucherWindow = new PilihVoucher();
@@ -75,7 +75,7 @@ Jika button Voucher di klik maka akan memunculkan halaman Daftar Voucher yang bi
         }
 ```
 Begitu pula dengan button Tambah Pesanan jika di klik maka akan memunculkan halaman list penawaran.
-```
+```csharp
 private void onButtonAddItemClicked(object sender, RoutedEventArgs e)
         {
             Penawaran penawaranWindow = new Penawaran();
