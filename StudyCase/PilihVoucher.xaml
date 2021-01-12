@@ -1,0 +1,21 @@
+﻿<Window x:Class="StudyCase.PilihVoucher"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudyCase"
+        mc:Ignorable="d"
+        Title="PilihVoucher" Height="450" Width="800">
+    <Grid>
+        <Label Content="Daftar Voucher" HorizontalAlignment="Left" Margin="108,66,0,0" VerticalAlignment="Top" Width="147"/>
+        <ListBox x:Name="DaftarVoucher" HorizontalAlignment="Left" Height="238" Margin="108,104,0,0" VerticalAlignment="Top" Width="371" SelectionChanged="DaftarVoucherSelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,1">
+                        <TextBlock Grid.Row="0" Text="{Binding title}" TextAlignment="Left" FontSize="16" />
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
