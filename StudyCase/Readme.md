@@ -1,4 +1,4 @@
-NAMA : Naima Zulfa
+Nama : Naima Zulfa
 NIM  : 19.11.2735
 Kelas: 19 Informatika 03
 
